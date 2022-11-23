@@ -4,6 +4,12 @@ import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
+    <>
+    <Head>
+        <title>Create Next App</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      
     <main>
       <div className="flex items-center justify-center h-screen bg-blue-900">
         <div className="max-w-md bg-blue-700 text-white rounded-md shadow-md overflow-hidden md:max-w-4xl my-10 mx-3 md:my-0 md:mx-0">
@@ -45,6 +51,7 @@ const Home: NextPage = () => {
         </div>
       </div>
     </main>
+    </>
   );
 };
 

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-main-color{
+    background-color: hsl(233, 47%, 7%);
+}
+.bg-card-color{
+    background-color: hsl(244, 38%, 16%);
+}
+.text-soft-violate{
+   color: hsl(277, 64%, 61%)
+}
